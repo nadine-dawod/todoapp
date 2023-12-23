@@ -1,7 +1,7 @@
 import Item from "./Item";
 
 
-const List = ({ todo }) => {
+const List = ({ todo, handleDelete }) => {
 
     if (!todo || todo.length === 0) {
         return <p>No ToDo's yet!</p>
@@ -10,7 +10,7 @@ const List = ({ todo }) => {
     return (
     <div className="todo-list">
         {todo.map((item) => (
-            <Item key={item.id} todo={item} /> 
+            <Item key={item.id} todo={item} handleDelete={handleDelete} /> 
         ))}
     </div>
     )

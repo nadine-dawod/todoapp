@@ -12,8 +12,6 @@ const Item = ({ todo, handleDelete, editTodo }) => {
         setDone(e.target.checked);
     }
 
-
-
 /*     const [title, setTitle] = useState("Title");
     const [task, setTask] = useState("Task"); */
 
