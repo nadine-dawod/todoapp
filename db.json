@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "test",
+      "email": "test@test.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "Nivette",
+      "email": "Nivette@dawod.com",
+      "password": "hej123",
+      "id": 2
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "title": "Laundry",
+      "task": "Do the laundry at 14.00",
+      "day": "Wednesday",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Meeting",
+      "task": "Lunch meeting with client",
+      "day": "Thursday",
+      "done": false
+    },
+    {
+      "id": 3,
+      "title": "Hair dresser",
+      "task": "Appointment at 15.30",
+      "day": "Monday",
+      "done": false
+    }
+  ]
+}
