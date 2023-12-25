@@ -11,6 +11,12 @@
       "email": "Nivette@dawod.com",
       "password": "hej123",
       "id": 2
+    },
+    {
+      "username": "Nadine",
+      "email": "jagpost@mejl.com",
+      "password": "hejlösen",
+      "id": 3
     }
   ],
   "todos": [
